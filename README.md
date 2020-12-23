@@ -73,7 +73,7 @@ Install Make for your distro.
     ```
 2. Change the current directory to the project directory
     ```sh
-    cd lab-remove-directory
+    cd lab-linked-list
     ```
 3. Run the make command from the terminal to compile the project
     ```sh
