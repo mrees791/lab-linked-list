@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "linkedlist.h"
+#include "linked_list.h"
 
 void verify (bool condition, char *message)
 {

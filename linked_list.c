@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "linkedlist.h"
+#include "linked_list.h"
 
 // This may need fixed. Nodes should be cleared from memory using free method.
 
