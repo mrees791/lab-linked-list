@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include "linked_list.h"
 
-// This may need fixed. Nodes should be cleared from memory using free method.
-
 list_t *create_list() {
 	list_t *list = malloc(sizeof(list_t));
 
