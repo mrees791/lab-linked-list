@@ -11,9 +11,7 @@ void verify (bool condition, char *message) {
 }
 
 int main() {
-    list_t *list;
-
-    list = create_list();
+    list_t *list = create_list();
 
 	verify(list == NULL, "create_list returned null");
     verify(list_size(list) != 0, "list_size returned non-zero size for a new list");
