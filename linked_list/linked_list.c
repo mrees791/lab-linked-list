@@ -113,20 +113,25 @@ bool list_remove(list_t *list, int index) {
 			node_t *node = list->first;
 			node_t *new_first = node->next;
 			list->first = new_first;
+			free(node);
 		} else {
+			node_t *node = list->first;
 			list->first = NULL;
 			list->last = NULL;
+			free(node);
 		}
 	} else if (lastItem) {
 		node_t *preNode = node_get(list, index - 1);
+		node_t *lastNode = preNode->next;
 		preNode->next = NULL;
 		list->last = preNode;
+		free(lastNode);
 	} else {
 		node_t *preNode = node_get(list, index - 1);
 		node_t *node = preNode->next;
 		node_t *postNode = node->next;
 		preNode->next = postNode;
-		node = NULL;
+		free(node);
 	}
 	list->size -= 1;
 	return true;
