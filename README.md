@@ -16,7 +16,7 @@
   <h3 align="center">Linked List Lab</h3>
 
   <p align="center">
-    A utility application for UNIX based systems. Provides a struct and functions for creating a linked list.
+    A utility application for Linux systems. Provides a struct and functions for creating a linked list.
   </p>
 </p>
 
@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a utility application for Linux systems. It provides a struct and functions for creating a linked list. It was made for my CPSC-230 Systems Programming course with the goal of learning how to allocate memory in C.
+This is a utility application for Linux systems which provides a struct and functions for creating a linked list. It was made for my CPSC-230 Systems Programming course with the goal of learning how to allocate memory in C.
 
 ### Built With
 
