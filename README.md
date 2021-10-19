@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a utility application for UNIX based systems. It provides a struct and functions for creating a linked list. It was made for my CPSC-230 Systems Programming course.
+This is a utility application for Linux systems. It provides a struct and functions for creating a linked list. It was made for my CPSC-230 Systems Programming course.
 
 ### Built With
 
